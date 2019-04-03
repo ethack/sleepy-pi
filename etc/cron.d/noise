@@ -1,0 +1,2 @@
+# m h dom mon dow user  command
+30 19 * * * root /opt/sleepy-pi/noise.sh 12:00:00

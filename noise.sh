@@ -8,4 +8,7 @@
 # 1 hour timer example
 # play -n synth 1:0:0 brownnoise synth pinknoise mix
 
-play -n synth brownnoise synth pinknoise mix
+# format is either hh:mm:ss or mm:ss
+TIME="$1"
+
+play -n synth $TIME brownnoise synth pinknoise mix

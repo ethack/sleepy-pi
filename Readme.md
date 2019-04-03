@@ -8,7 +8,7 @@
 	* light - schedule for running light.sh
 	* noise - schedule for running noise.sh
 * light.sh - script to turn the pi LED on/off
-* noise.sh - script to play white(ish) noise (acutally brown + pink)
+* noise.sh - script to play white(ish) noise (acutally brown + pink) for a period of time
 
 # Dependencies
 
@@ -19,5 +19,3 @@ sudo mkdir -p /opt/sleepy-pi
 sudo git clone https://github.com/ethack/sleepy-pi /opt/sleepy-pi
 sudo cp /opt/sleepy-pi/etc/cron.d/* /etc/cron.d/
 ```
-
-* setup.sh
