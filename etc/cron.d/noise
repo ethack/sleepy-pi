@@ -1,2 +1,5 @@
 # m h dom mon dow user  command
-30 19 * * * root /opt/sleepy-pi/noise.sh 12:00:00
+# Start every night at 7:30pm and run for 12 hours
+#30 19 * * * root /opt/sleepy-pi/noise.sh 12:00:00
+# Start every minute but use flock to ensure only one is ever running
+* * * * * root flock --wait 60 /tmp/noise /opt/sleepy-pi/noise.sh 1:00:00

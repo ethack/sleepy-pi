@@ -1,3 +1,3 @@
 # m h dom mon dow user  command
-30 7 * * * root /opt/sleepy-pi/light.sh on
-0 10 * * * root /opt/sleepy-pi/light.sh off
+#30 7 * * * root /opt/sleepy-pi/light.sh on
+#0 10 * * * root /opt/sleepy-pi/light.sh off
