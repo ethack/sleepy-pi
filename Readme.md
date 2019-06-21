@@ -45,3 +45,6 @@ sudo systemctl restart cron
 * http://www.raspberry-pi-geek.com/Archive/2015/09/Using-the-Raspberry-Pi-as-an-AirPlay-server
 
 Note that both shairplay and shairport-sync are in the Rasbian package repository and you don't need to install either one from source.
+
+## TODO
+* https://hackaday.com/2019/04/08/give-your-raspberry-pi-sd-card-a-break-log-to-ram/
